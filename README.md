@@ -1,4 +1,3 @@
-# ahwfilm.github.io
 # Hi, I'm Alex White! 
 
 I'm studying Media Arts and Design at James Madison University with a concentration in Digital Video & Cinema and a Creative Writing minor.
