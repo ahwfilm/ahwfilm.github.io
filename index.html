@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex White - Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #f5f7fa 0%, #e4edf5 100%);
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background: linear-gradient(120deg, #4b6cb7 0%, #182848 100%);
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+            border-radius: 10px 10px 0 0;
+        }
+        
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid rgba(255, 255, 255, 0.3);
+            margin-bottom: 20px;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        .tagline {
+            font-size: 1.2rem;
+            font-weight: 300;
+            margin-bottom: 20px;
+        }
+        
+        section {
+            background: white;
+            padding: 30px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        
+        h2 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #4b6cb7;
+            padding-bottom: 10px;
+        }
+        
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin: 20px 0;
+        }
+        
+        .skill {
+            background: #e4edf5;
+            padding: 10px 20px;
+            border-radius: 30px;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            color: #6c757d;
+        }
+        
+        .social-links {
+            margin-top: 20px;
+        }
+        
+        .social-links a {
+            color: #4b6cb7;
+            font-size: 1.5rem;
+            margin: 0 10px;
+            transition: transform 0.3s;
+            display: inline-block;
+        }
+        
+        .social-links a:hover {
+            transform: translateY(-5px);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <!-- REPLACE THIS IMAGE WITH YOUR OWN -->
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80" alt="Alex White" class="profile-img">
+            <h1>Alex White</h1>
+            <p class="tagline">Senior at James Madison University | Communication Studies | Digital Studies Minor</p>
+        </header>
+
+        <section>
+            <h2>About Me</h2>
+            <p>I'm a Senior at James Madison University studying Communication Studies with a concentration in Organizational Communication and a Digital Studies minor from Richmond, Virginia.</p>
+            <p>I'm interested in working with nonprofit organizations, developing my technological skills, and digital marketing.</p>
+        </section>
+
+        <section>
+            <h2>Skills</h2>
+            <div class="skills">
+                <div class="skill">SQL</div>
+                <div class="skill">Markdown</div>
+                <div class="skill">Video Editing</div>
+                <div class="skill">Graphic Design</div>
+                <div class="skill">Microsoft Office</div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Experience</h2>
+            <p><strong>Marketing Intern</strong> - Henrico Federal Credit Union (Summer 2023)</p>
+            <p>Developed promotional materials and helped coordinate community outreach events.</p>
+        </section>
+
+        <section>
+            <h2>Contact</h2>
+            <p>Email: alex.white@example.com</p>
+            <p>Location: Richmond, Virginia</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </section>
+
+        <footer>
+            <p>© 2023 Alex White. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
